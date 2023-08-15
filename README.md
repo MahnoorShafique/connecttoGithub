@@ -16,6 +16,8 @@ ubuntu@ip-172-31-1-201:~/django_bm$ touch ~/.ssh/config
 ubuntu@ip-172-31-1-201:~/django_bm$ vim ~/.ssh/config
 
 
+
+
 Host *
 
     AddKeysToAgent yes
