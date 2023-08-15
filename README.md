@@ -2,6 +2,7 @@
 ssh-keygen -t ed25519 -C "mahnoor@gmail.com"
 
 enter 
+
 enter
 
 eval "$(ssh-agent -s)"
