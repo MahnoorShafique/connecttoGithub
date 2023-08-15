@@ -21,6 +21,7 @@ Host *
 
 
 ubuntu@ip-172-31-1-201:~/django_bm$ ssh-add ~/.ssh/id_ed25519
+
  cat ~/.ssh/id_ed25519.pub
 paste its content in github ssh
 
