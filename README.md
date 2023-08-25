@@ -7,13 +7,13 @@ enter
 
 eval "$(ssh-agent -s)"
 
-ubuntu@ip-172-31-1-201:~/django_bm$ ~/.ssh/config
+ubuntu@ip:~/django_bm$ ~/.ssh/config
 
 -bash: /home/ubuntu/.ssh/config: No such file or directory
 
-ubuntu@ip-172-31-1-201:~/django_bm$ touch ~/.ssh/config
+ubuntu@ip:~/django_bm$ touch ~/.ssh/config
 
-ubuntu@ip-172-31-1-201:~/django_bm$ vim ~/.ssh/config
+ubuntu@ip:~/django_bm$ vim ~/.ssh/config
 
 
 
@@ -25,7 +25,7 @@ Host *
     IdentityFile ~/.ssh/id_ed25519
 
 
-ubuntu@ip-172-31-1-201:~/django_bm$ ssh-add ~/.ssh/id_ed25519
+ubuntu@ip:~/django_bm$ ssh-add ~/.ssh/id_ed25519
 
  cat ~/.ssh/id_ed25519.pub
 paste its content in github ssh
